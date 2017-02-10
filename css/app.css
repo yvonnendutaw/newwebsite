@@ -169,8 +169,10 @@ nav {
     display: inline-block;
     overflow: hidden;
     margin: 8px;
+    /*
     min-width: 230px;
     max-width: 315px;
+*/
     width: 100%;
     color: #fff;
     text-align: left;
@@ -314,6 +316,12 @@ p {
 section#team {
     margin-top: 3%;
     text-align: center;
+}
+
+.contactus {
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 60vh;
 }
 
 
