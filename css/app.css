@@ -295,6 +295,28 @@ a.waves-effect.waves-light.btn {
 }
 
 
+/*video*/
+
+section#aboutus {
+    margin-top: 3%;
+    text-align: center;
+}
+
+section#aboutus h4,
+p {
+    text-align: left;
+}
+
+.abouttitle {
+    margin-bottom: 3%;
+}
+
+section#team {
+    margin-top: 3%;
+    text-align: center;
+}
+
+
 /*footer*/
 
 footer.page-footer {
