@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600,600italic,700,700italic,800,800italic'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet prefetch' href='https://dl.dropboxusercontent.com/u/97609687/codepen/style.css'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/app.css">
@@ -17,13 +21,18 @@
 </head>
 
 <body>
-    <nav>
-        <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <logo> </logo> <a href="index.html">Home</a> <a href="about.html">About Us</a> <a href="#">Careers</a> <a href="features.html">Feature</a> <a href="contact.html">Contact</a> </div>
-        <!--         Use any element to open the sidenav --><span onclick="openNav()">
-<!--        <i class="material-icons md-48">menu</i>-->
-        <h4> Netwookie</h4></span>
-        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><img src="./img/netlogopng.png" height=43px width=39px alt="">
+                <h6>NetWOOKIE</h6> </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
     </nav>
     <section id="aboutus">
         <h3>About Netwookie</h3>
@@ -37,7 +46,7 @@
             </div>
             <div class="col s12 m6 l6">
                 <div class="video-container videonetwookie">
-                    <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/cX2eRdMfQSs" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -103,137 +112,52 @@
         </div>
     </section>
     <section id="testimonials">
-        <h3 class="center-align">What They say About us</h3>
-        <hr>
-        <div class="cd-testimonials-wrapper cd-container">
-            <!-- cd-testimonials-wrapper -->
-            <div class="cd-testimonials-all">
-                <div class="cd-testimonials-all-wrapper">
-                    <ul>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit totam saepe iste maiores neque animi molestias nihil illum nisi temporibus.</p>
-                            <div class="cd-author"> <img src="img/avatar-1.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
+        <div class="testimonial-container">
+            <div class="dk-container">
+                <div class="cd-testimonials-wrapper cd-container">
+                    <h2>Testimonials</h2>
+                    <ul class="cd-testimonials">
+                        <li>
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                                <div class="cd-author"> <img src="http://placehold.it/350x350/222222/222222" alt="Author image">
+                                    <ul class="cd-author-info">
+                                        <li>Lorem<strong>Ipsum</strong>
+                                            <br><span>@twitterhandle</span></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <!-- cd-author -->
                         </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nostrum nisi, doloremque error hic nam nemo doloribus porro impedit perferendis. Tempora, distinctio hic suscipit. At ullam eaque atque recusandae modi fugiat voluptatem laborum laboriosam rerum, consequatur reprehenderit omnis, enim pariatur nam, quidem, quas vel reiciendis aspernatur consequuntur. Commodi quasi enim, nisi alias fugit architecto, doloremque, eligendi quam autem exercitationem consectetur.</p>
-                            <div class="cd-author"> <img src="img/avatar-2.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
+                        <li>
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum.</p>
+                                <div class="cd-author"> <img src="http://placehold.it/350x350/222222/222222" alt="Author image">
+                                    <ul class="cd-author-info">
+                                        <li>Lorem<strong>Ipsum</strong>
+                                            <br><span>@twitterhandle</span></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <!-- cd-author -->
                         </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quibusdam eveniet, molestiae laborum voluptatibus minima hic quasi accusamus ut facere, eius expedita, voluptatem? Repellat incidunt veniam quaerat, qui laboriosam dicta. Quidem ducimus laudantium dolorum enim qui at ipsum, a error.</p>
-                            <div class="cd-author"> <img src="img/avatar-3.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
+                        <li>
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum.</p>
+                                <div class="cd-author"> <img src="http://placehold.it/350x350/222222/222222" alt="Author image">
+                                    <ul class="cd-author-info">
+                                        <li>Lorem<strong>Ipsum</strong>
+                                            <br><span>@twitterhandle</span></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <!-- cd-author -->
-                        </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptates officiis tempore quae officia! Beatae quia deleniti cum corporis eos perferendis libero reiciendis nemo iusto accusamus, debitis tempora voluptas praesentium repudiandae laboriosam excepturi laborum, nisi optio repellat explicabo, incidunt ex numquam. Ullam perferendis officiis harum doloribus quae corrupti minima quia, aliquam nostrum expedita pariatur maxime repellat, voluptas sunt unde, inventore.</p>
-                            <div class="cd-author"> <img src="img/avatar-4.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
-                            </div>
-                            <!-- cd-author -->
-                        </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit totam saepe iste maiores neque animi molestias nihil illum nisi temporibus.</p>
-                            <div class="cd-author"> <img src="img/avatar-5.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
-                            </div>
-                            <!-- cd-author -->
-                        </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quia quas, quis illo adipisci voluptate ex harum iste commodi nulla dolor. Eius ratione quod ab!</p>
-                            <div class="cd-author"> <img src="img/avatar-6.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
-                            </div>
-                            <!-- cd-author -->
-                        </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dignissimos iure rem fugiat consequuntur officiis.</p>
-                            <div class="cd-author"> <img src="img/avatar-1.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
-                            </div>
-                            <!-- cd-author -->
-                        </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At temporibus tempora necessitatibus reiciendis provident deserunt maxime sit id. Dicta aut voluptatibus placeat quibusdam vel, dolore.</p>
-                            <div class="cd-author"> <img src="img/avatar-2.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
-                            </div>
-                            <!-- cd-author -->
-                        </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis iusto sapiente, excepturi velit, beatae possimus est tenetur cumque fugit tempore dolore fugiat! Recusandae, vel suscipit? Perspiciatis non similique sint suscipit officia illo, accusamus dolorum, voluptate vitae quia ea amet optio magni voluptatem nemo, natus nihil.</p>
-                            <div class="cd-author"> <img src="img/avatar-3.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
-                            </div>
-                            <!-- cd-author -->
-                        </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quasi officiis pariatur, fugit minus omnis animi ut assumenda quod commodi, ad a alias maxime unde suscipit magnam, voluptas laboriosam ipsam quibusdam quidem, dolorem deleniti id.</p>
-                            <div class="cd-author"> <img src="img/avatar-4.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
-                            </div>
-                            <!-- cd-author -->
-                        </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At temporibus tempora necessitatibus reiciendis provident deserunt maxime sit id. Dicta aut voluptatibus placeat quibusdam vel, dolore.</p>
-                            <div class="cd-author"> <img src="img/avatar-5.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
-                            </div>
-                            <!-- cd-author -->
-                        </li>
-                        <li class="cd-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque tempore ipsam, eos suscipit nostrum molestias reprehenderit, rerum amet cum similique a, ipsum soluta delectus explicabo nihil repellat incidunt! Minima magni possimus mollitia deserunt facere, tempore earum modi, ea ipsa dicta temporibus suscipit quidem ut quibusdam vero voluptatibus nostrum excepturi explicabo nulla harum, molestiae alias. Ab, quidem rem fugit delectus quod.</p>
-                            <div class="cd-author"> <img src="img/avatar-6.jpg" alt="Author image">
-                                <ul class="cd-author-info">
-                                    <li>MyName</li>
-                                    <li>CEO, CompanyName</li>
-                                </ul>
-                            </div>
-                            <!-- cd-author -->
                         </li>
                     </ul>
                 </div>
-                <!-- cd-testimonials-all-wrapper --><a href="#0" class="close-btn">Close</a> </div>
-            <!-- cd-testimonials-all -->
+                <!-- cd-testimonials -->
+            </div>
+        </div>
     </section>
     <footer class="page-footer">
         <div class="container">
@@ -272,12 +196,11 @@
             <div class="container"> © 2017 Copyright Netwookie <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a> </div>
         </div>
     </footer>
-    <script src="js/main.js"></script>
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/vendor/jquery.js "></script>
-    <script src="js/app.js "></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.1/jquery.flexslider.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js'></script>
+    <script src="js/testimonials.js"></script>
 </body>
 
 </html>
