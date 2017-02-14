@@ -618,13 +618,20 @@ video#bgvid {
     color: whitesmoke;
     text-align: center;
 }
+.row.abouttext {
+    padding: 7%;
+}
 #video_overlays {
     position: absolute;
     float: left;
     width: 100%;
-    height: 93.8vh;
+    height: 90.8vh;
     background-color: rgba(7, 7, 7, 0.5);
     z-index: 300000;
+}
+section#team {
+    padding: 4%;
+    color: whitesmoke;
 }
 .contactus {
     position: fixed;
