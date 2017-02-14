@@ -38,6 +38,10 @@ hr {
 
 nav {
     background-color: #FF9800;
+    /*    position: fixed;
+    */
+    /*    height: 66px;
+    */
 }
 
 
@@ -106,39 +110,39 @@ transition: 0.5s;
     height: 100vh;
     background-image: url(../img/landingbg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     z-index: 0;
-    background-attachment: ;
+    background-attachment: fixed;
     width: 100%;
     max-width: 100%;
 }
 .headerindex2 {
     display: inline-block;
-    height: 86vh;
+    height: 100vh;
     background-image: url(../img/header2bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     z-index: 0;
-    background-attachment: ;
+    background-attachment: fixed;
     max-width: 100%;
 }
 .headerindex3 {
     display: inline-block;
-    height: 86vh;
+    height: 100vh;
     background-image: url(../img/Netwookie%20Product%20Presentation%202017-page-001.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     z-index: 0;
-    background-attachment: ;
+    background-attachment: fixed;
     max-width: 100%;
 }
 
@@ -155,6 +159,10 @@ transition: 0.5s;
     height: 80px;
     margin: 5% 25%;
 }
+.sliderr {
+    background-color: whitesmoke;
+    border-left: 1px solid black;
+}
 .col.s12.l6.m6.introtext {
     margin-top: 10%;
     text-align: center;
@@ -162,6 +170,9 @@ transition: 0.5s;
 .analysistext {
     background-color: #4E3D42;
     color: whitesmoke;
+}
+.row.center-align.col.s8.analysistext {
+    margin-top: 3px;
 }
 
 /*team*/
@@ -282,27 +293,12 @@ a.waves-effect.waves-light.btn {
     width: 100%;
     margin-bottom: -60px;
 }
-
-/*video*/
-section#aboutus {
-    margin-top: 3%;
-    text-align: center;
-}
-section#aboutus h4,
-p {
-    text-align: left;
-}
 .abouttitle {
     margin-bottom: 3%;
 }
 section#team {
-    margin-top: 3%;
     text-align: center;
-}
-.contactus {
-    margin-left: 25%;
-    margin-right: 25%;
-    height: 60vh;
+    background-color: #14141d;
 }
 
 /*footer*/
@@ -594,4 +590,68 @@ ul.cd-author-info li span {
     .flex-direction-nav {
         visibility: hidden;
     }
+}
+
+/*about*/
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100vh;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.video {
+    height: 100vh;
+}
+.abouttext {
+    background-color: grey;
+    color: whitesmoke;
+    text-align: center;
+}
+#video_overlays {
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 93.8vh;
+    background-color: rgba(7, 7, 7, 0.5);
+    z-index: 300000;
+}
+.contactus {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url(../img/contact.jpg);
+    width: 1200px;
+    height: 800px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.contactform {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+form {
+    border: solid 1px white;
+    margin: 10% 20%;
+    background-color: rgba(25, 22, 22, 0.55);
+    color: whitesmoke;
 }

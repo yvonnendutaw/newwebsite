@@ -10,10 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600,600italic,700,700italic,800,800italic'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel='stylesheet prefetch' href='https://dl.dropboxusercontent.com/u/97609687/codepen/style.css'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/app.css">
@@ -21,32 +17,38 @@
 </head>
 
 <body>
-      <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo"><img src="./img/netlogopng.png" height=43px width=39px alt="">
-                <h6>NetWOOKIE</h6> </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="careers.html">Careers</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-            </ul>
-        </div>
-    </nav>
     <section id="aboutus">
-        <h3>About Netwookie</h3>
-        <hr class="abouttitle">
-        <div class="row aboutintro">
-            <div class="col s12 l6 m6">
-                <h4>Mission Statement</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cum eaque, porro natus aliquid maiores amet fugiat aspernatur incidunt aliquam commodi, molestiae doloribus debitis dolorem unde quibusdam ea eos ad. </p>
-                <h4>Vision</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique adipisci unde officiis explicabo vero vitae? Id tempora facere repellendus earum at, iure nemo voluptatibus ipsam deserunt, officiis quis doloribus repudiandae.</p>
+        <div class="row video">
+            <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+                <source src="./img/netvideo.mp4" type="video/mp4"> </video>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo"> <img class="netwookielogo" src="./img/netlogopng.png" height="20px" width="30px" alt=""> Netwookie</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="about.html">About Us</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="video_overlays">
+                <div class="aboutustext" style="color:whitesmoke; text-align:center; margin-top:10%;">
+                    <h3>Get to know more about us</h3>
+                    <button class="btn waves-effect">Learn More</button>
+                </div>
             </div>
-            <div class="col s12 m6 l6">
-                <div class="video-container videonetwookie">
-                    <iframe width="640" height="360" src="https://www.youtube.com/embed/cX2eRdMfQSs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="row abouttext">
+            <h3>About Netwookie</h3>
+            <hr class="abouttitle">
+            <div class="row ">
+                <div class="col s12 l12 m12">
+                    <h4>Mission Statement</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cum eaque, porro natus aliquid maiores amet fugiat aspernatur incidunt aliquam commodi, molestiae doloribus debitis dolorem unde quibusdam ea eos ad. </p>
+                    <h4>Vision</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique adipisci unde officiis explicabo vero vitae? Id tempora facere repellendus earum at, iure nemo voluptatibus ipsam deserunt, officiis quis doloribus repudiandae.</p>
                 </div>
             </div>
         </div>
