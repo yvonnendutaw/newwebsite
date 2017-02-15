@@ -20,6 +20,11 @@ hr {
     font-size: 700;
 }
 
+.row {
+    margin: 0em;
+    padding: 0em;
+}
+
 .row.row {
     margin: 0px;
     padding: 0em;
@@ -35,10 +40,6 @@ ul li a {
     padding: 0 20px;
 }
 
-nav ul a:hover {
-    background-color: red;
-}
-
 
 /*********************landing page***************************/
 
@@ -46,7 +47,7 @@ nav ul a:hover {
 /*nav*/
 
 nav {
-    background-color: #FF9800;
+    background-color: #ff9800;
     /*    position: fixed;
     */
     /*    height: 66px;
@@ -107,7 +108,12 @@ nav {
 }
 
 .intro1 {
-    background-color: #CF9893;
+    background-color: #655d57;
+    color: whitesmoke;
+}
+
+.introtext {
+    background-color: #655d57;
 }
 
 .slider {
@@ -132,9 +138,7 @@ nav {
     color: whitesmoke;
 }
 
-.row.center-align.col.s8.analysistext {
-    margin-top: 3px;
-}
+.row.center-align.col.s8.analysistext {}
 
 
 /*team*/
@@ -748,4 +752,24 @@ form input.input-field {
 
 /* label underline focus color */
 
-.input-field input[type=text]:focus {}
+.skill {
+    background-color: #645f5f;
+    color: white;
+}
+
+a.waves-effect.waves-light.btn.btnsubscribe {
+    margin-left: -7%;
+    margin-top: 6%;
+}
+
+.positions {
+    background-color: transparent;
+    border: solid 1px black;
+    color: black;
+}
+
+.positions.btn:hover {
+    background-color: orange;
+    border: solid 1px white;
+    color: white;
+}
