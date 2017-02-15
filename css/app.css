@@ -660,6 +660,11 @@ section#team {
     filter: blur(3px);
 }
 
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+
 .contactform {
     position: fixed;
     left: 0;
