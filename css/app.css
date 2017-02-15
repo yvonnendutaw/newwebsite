@@ -50,7 +50,7 @@ nav {
 .headerindex {
     display: inline-block;
     height: 100vh;
-    background-image: url(../img/landingbg.jpg);
+    background-image: url(../img/landingbg_mini.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -65,7 +65,7 @@ nav {
 .headerindex2 {
     display: inline-block;
     height: 100vh;
-    background-image: url(../img/header2bg.jpg);
+    background-image: url(../img/header2bg_mini.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -79,7 +79,7 @@ nav {
 .headerindex3 {
     display: inline-block;
     height: 100vh;
-    background-image: url(../img/Netwookie%20Product%20Presentation%202017-page-001.jpg);
+    background-image: url(../img/Netwookie%20Product%20Presentation%202017-page-001_mini.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -650,7 +650,7 @@ section#team {
     right: 0;
     z-index: 1;
     display: block;
-    background-image: url(../img/contact.jpg);
+    background-image: url(../img/contact_mini.jpg);
     width: 1200px;
     height: 800px;
     -webkit-filter: blur(3px);
