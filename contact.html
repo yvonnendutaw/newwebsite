@@ -20,8 +20,15 @@
     <div class="navbar-fixed">
         <nav class="col s12">
             <div class="nav-wrapper ">
-                <a href="#" class="brand-logo"> <img class="netwookielogo" src="./img/netlogopng.png" height="20px" width="30px" alt=""> Netwookie</a>
+                <a href="#" class="brand-logo" style="margin-top: 5px;"> <img class="netwookielogo" src="./img/netlogopng.png" height="40px" width="40px" alt=""> Netwookie</a> <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li class="active"><a href="contact.html">Contact us</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="features.html">Features</a></li>
@@ -32,35 +39,40 @@
         </nav>
     </div>
     <div class="row">
-        <div class="row contactus"></div>
-        <div class="row contactform">
-            <form class="col  s6 offset-s3">
-                <h3 class="center-align" style="margin-top:4%;">Leave us a message</h3>
-                <hr>
-                <div class="row">
-                    <div class="input-field col s6">
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">First Name</label>
+        <div class="row contactus">
+            <div class="row contactform">
+                <form class="col  s12">
+                    <h3 class="center-align" style="margin-top:4%;">Wanna chat? Coffee maybe?</h3>
+                    <h3 class="center-align" style="margin-top:4%;">Leave us a message</h3>
+                    <hr style="width:25%;">
+                    <div class="inputs">
+                        <div class="row ">
+                            <div class="input-field col s6">
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="textarea" type="text" class="">
+                                <label for="Message">Message</label> <a class="waves-effect waves-light btn contactbtn">Send </a> </div>
+                        </div>
                     </div>
-                    <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Last Name</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="email" type="email" class="validate">
-                        <label for="email">Email</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="textarea" type="text" class="">
-                        <label for="Message">Message</label> <a class="waves-effect waves-light btn contactbtn">Send </a> </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
+    <div class="clear"></div>
     <footer class="page-footer">
         <div class="container">
             <div class="row">

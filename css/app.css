@@ -21,13 +21,22 @@ hr {
 }
 
 .row.row {
-    margin: -3px;
+    margin: 0px;
     padding: 0em;
     width: 100%;
 }
 
 .column.column {
     padding: 0em;
+}
+
+ul li a {
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+nav ul a:hover {
+    background-color: red;
 }
 
 
@@ -78,8 +87,8 @@ nav {
 
 .headerindex3 {
     display: inline-block;
-    height: 100vh;
-    background-image: url(../img/Netwookie%20Product%20Presentation%202017-page-001_mini.jpg);
+    height: 90vh;
+    background-image: url(../img/careers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -260,8 +269,12 @@ nav {
 }
 
 a.waves-effect.waves-light.btn {
-    width: 100%;
+    width: 50%;
     margin-bottom: -60px;
+    align-items: center;
+    /* margin: 0 auto; */
+    margin: 0 25%;
+    background-color: #f0740e;
 }
 
 .abouttitle {
@@ -273,12 +286,16 @@ section#team {
     background-color: #14141d;
 }
 
+.clear {
+    clear: both;
+}
+
 
 /*footer*/
 
 footer.page-footer {
     padding-top: 20px;
-    background-color: #1C3144;
+    background-color: #2e3236;
     margin-top: -3px;
 }
 
@@ -645,19 +662,15 @@ section#team {
 }
 
 .contactus {
-    position: fixed;
+    /*    position: fixed;*/
     left: 0;
     right: 0;
     z-index: 1;
     display: block;
-    background-image: url(../img/contact_mini.jpg);
-    width: 1200px;
-    height: 800px;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
+    height: 100vh;
+    background-image: url(../img/contactimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 video {
@@ -666,7 +679,7 @@ video {
 }
 
 .contactform {
-    position: fixed;
+    /*    position: fixed;*/
     left: 0;
     right: 0;
     z-index: 9999;
@@ -675,8 +688,64 @@ video {
 }
 
 form {
-    border: solid 1px white;
-    margin: 10% 20%;
-    background-color: rgba(25, 22, 22, 0.55);
+    background-color: rgba(16, 16, 16, 0.81);
     color: whitesmoke;
 }
+
+form.col.s12 {
+    padding: 70px;
+}
+
+form input.input-field {
+    width: 50%;
+}
+
+.input-field:focus {
+    color: #f0740e;
+}
+
+#textarea:focus {
+    border-bottom: 1px solid orange;
+    -webkit-box-shadow: 0 1px 0 0 orange;
+    -moz-box-shadow: 0 1px 0 0 orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+
+#first_name:focus {
+    border-bottom: 1px solid orange;
+    -webkit-box-shadow: 0 1px 0 0 orange;
+    -moz-box-shadow: 0 1px 0 0 orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+
+#last_name:focus {
+    border-bottom: 1px solid orange;
+    -webkit-box-shadow: 0 1px 0 0 orange;
+    -moz-box-shadow: 0 1px 0 0 orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+
+#email:focus {
+    border-bottom: 1px solid orange;
+    -webkit-box-shadow: 0 1px 0 0 orange;
+    -moz-box-shadow: 0 1px 0 0 orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+
+.inputs {
+    border-left: 1px solid orange;
+    border-right: 1px solid orange;
+    padding: 30px;
+}
+
+
+/* label focus color */
+
+.input-field input[type=text]:focus + label {
+    color: orange;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {}
