@@ -13,6 +13,11 @@ h6 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+body p {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 hr {
     box-sizing: content-box;
     height: 0;
@@ -67,7 +72,7 @@ nav {
     -moz-background-size: cover;
     -o-background-size: cover;
     z-index: 0;
-    background-attachment: fixed;
+    background-attachment: ;
     width: 100%;
     max-width: 100%;
 }
@@ -82,7 +87,7 @@ nav {
     -moz-background-size: cover;
     -o-background-size: cover;
     z-index: 0;
-    background-attachment: fixed;
+    background-attachment: ;
     max-width: 100%;
 }
 
@@ -96,8 +101,16 @@ nav {
     -moz-background-size: cover;
     -o-background-size: cover;
     z-index: 0;
-    background-attachment: fixed;
+    background-attachment: ;
     max-width: 100%;
+}
+
+.text h4 {
+    margin-top: 17vh;
+    font-weight: 600;
+    font-size: 50px;
+    color: #000;
+    margin-left: 100px;
 }
 
 
@@ -108,12 +121,12 @@ nav {
 }
 
 .intro1 {
-    background-color: #655d57;
+    background-color: #bdbdbd;
     color: whitesmoke;
 }
 
 .introtext {
-    background-color: #655d57;
+    color: black;
 }
 
 .slider {
@@ -124,7 +137,7 @@ nav {
 }
 
 .sliderr {
-    background-color: whitesmoke;
+    background-color: #e0e0e0;
 }
 
 .col.s12.l6.m6.introtext {
@@ -133,7 +146,7 @@ nav {
 }
 
 .analysistext {
-    background-color: #4E3D42;
+    background-color: #757575;
     color: whitesmoke;
 }
 
@@ -281,21 +294,26 @@ a.waves-effect.waves-light.btn {
 }
 
 .abouttitle {
-    margin-bottom: 3%;
+    margin-bottom: 2%;
+    width: 15%;
 }
 
 .aboutustext {
-    background-color: rgba(0, 0, 0, 0.72);
+    background-color: rgba(0, 0, 0, 0.41);
     height: 91.1vh;
 }
 
 section#team {
     text-align: center;
-    background-color: #9e9ea7;
+    background-color: #e0e0e0;
 }
 
 .clear {
     clear: both;
+}
+
+{
+    padding: 5%;
 }
 
 
@@ -303,7 +321,7 @@ section#team {
 
 footer.page-footer {
     padding-top: 20px;
-    background-color: #2e3236;
+    background-color: #1a1919;
     margin-top: -3px;
 }
 
@@ -597,14 +615,22 @@ video#bgvid {
 }
 
 .abouttext {
-    background-color: #ffe3e3;
     color: black;
     text-align: center;
     background-attachment: fixed;
 }
 
 .row.abouttext {
-    padding: 2%;
+    padding: 3% 6%;
+}
+
+.row.abouttext {
+    background-color: #fafafa;
+    color: black;
+}
+
+div#abouttext {
+    margin-top: 2px;
 }
 
 #video_overlays {
@@ -617,8 +643,8 @@ video#bgvid {
 }
 
 section#team {
-    padding: 0%;
-    color: whitesmoke;
+    padding: 2%;
+    color: black;
 }
 
 .contactus {
@@ -627,7 +653,7 @@ section#team {
     right: 0;
     z-index: 1;
     display: block;
-    height: 100vh;
+    height: 101vh;
     background-image: url(../img/contactimg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -645,6 +671,7 @@ video {
     z-index: 9999;
     margin-left: 20px;
     margin-right: 20px;
+    height: 101vh;
 }
 
 form {
@@ -653,7 +680,7 @@ form {
 }
 
 form.col.s12 {
-    padding: 70px;
+    padding: 74px;
 }
 
 form input.input-field {
@@ -709,13 +736,14 @@ form input.input-field {
 /* label underline focus color */
 
 .skill {
-    background-color: #645f5f;
+    background-color: #9e9e9e;
     color: white;
 }
 
 a.waves-effect.waves-light.btn.btnsubscribe {
     margin-left: -7%;
-    margin-top: 6%;
+    margin-top: 8%;
+    width: 100%;
 }
 
 .positions {
@@ -731,7 +759,7 @@ a.waves-effect.waves-light.btn.btnsubscribe {
 }
 
 .row.intro1 {
-    margin-top: -6px;
+    margin-top: -7px;
 }
 
 .waves-effect.waves-orange.btn.contactbtn.waves-input-wrapper {
@@ -743,4 +771,79 @@ a.waves-effect.waves-light.btn.btnsubscribe {
 materialize.css:4996 .btn:hover,
 .btn-large:hover {
     background-color: orange;
+}
+
+.icons ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.icons ul li {
+    display: inline;
+}
+
+.fa {
+    padding: px;
+    border-radius: 200px;
+    /*    border: solid white 1px;
+    */
+    background-color: rgba(255, 255, 255, 0.02);
+    font-size: 40px;
+}
+
+.fa-facebook {
+    color: #808080;
+}
+
+.fa-twitter {
+    color: #808080;
+}
+
+.fa-youtube-play {
+    color: #808080;
+}
+
+.fa-google-plus {
+    color: #808080;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    transition: 2s;
+    background-color: ;
+}
+
+.fa-twitter:hover {
+    color: #1da1f3;
+    transition: 2s;
+}
+
+.fa-youtube-play:hover {
+    color: #d72523;
+    transition: 2s;
+}
+
+.fa-google-plus:hover {
+    color: #c74a33;
+    transition: 2s;
+}
+
+.icons {
+    margin-right: 0px;
+    margin-top: 20px;
+}
+
+.figure {
+    padding: 5%;
+}
+
+.careerstext {
+    height: 90vh;
+}
+
+a.brand-logo {
+    margin-top: 5px;
+    margin-left: 8px;
 }

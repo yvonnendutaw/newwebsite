@@ -1,10 +1,11 @@
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+$('.button-collapse').sideNav({
+    menuWidth: 300, // Default is 240
+    closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+});
+$('.collapsible').collapsible();
+$('body').on('click', '.button-collapse', function () {
+    window.alert('too bad :(. This event will never be triggered because the sideNav is stopping propagation.');
+});
 $(document).ready(function () {
     $('.slider').slider({
         full_width: true
