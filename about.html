@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netwookie Limited</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -43,23 +44,22 @@
             <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
                 <source src="./img/netvideo.mp4" type="video/mp4"> </video>
             <div class="row aboutustext col s12">
-                <div class="col s8 offset-s2  center-align" style="color:whitesmoke; padding:50px; margin-top: 100px;text-align=center; height: 300px; background-color:rgba(0, 0, 0, 0.0); ">
+                <div class="col s8 offset-s2  center-align" style="color:whitesmoke; padding:50px; margin-top: 90px;text-align=center; height: 300px; background-color:rgba(0, 0, 0, 0.0); ">
                     <br>
-                    <h3 style="font-weight:400;">Curious About The Company? <br>Well, Do get to Know us</h3>
+                    <h3 style="font-weight:400;"> A peer-to-peer job facilitation solution for the world’s biggest labour force </h3>
                     <br>
-                    <button class="btn waves-effect positions" style="color:white; border:solid 1px white;">Learn More</button>
+                    <a href="">
+                        <button class="btn btnlearn waves-effect positions" style="color:white; border:solid 1px white;">Learn More </button>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="row abouttext">
-            <h3>About Netwookie</h3>
-            <hr class="abouttitle">
+        <div class="row abouttext" id="abouttext">
+            <h3>Netwookie</h3>
+            <hr class="abouttitle" style="width:25%;">
             <div class="row ">
                 <div class="col s12 l12 m12">
-                    <h4>Mission Statement</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cum eaque, porro natus aliquid maiores amet fugiat aspernatur incidunt aliquam commodi, molestiae doloribus debitis dolorem unde quibusdam ea eos ad. </p>
-                    <h4>Vision</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique adipisci unde officiis explicabo vero vitae? Id tempora facere repellendus earum at, iure nemo voluptatibus ipsam deserunt, officiis quis doloribus repudiandae.</p>
+                    <p>Netwookie is a peer-to-peer mobile application for a transitioning job market (from informal to formal) as found in major cities of the developing world. It aims at providing transparency and opportunity to marginalised people by facilitating job creation whilst leveraging the unique dynamics found in these environments. Generated data provides an unprecedented solution for companies and organisation to source qualified workers from the world’s biggest labour force and assists in designing locally adapted economic and social interventions. brFounded by Maximilian Bock in 2015, Netwookie is the recent winner of the Cambridge Enterprise Business Competition, and now operational in Cambridge and Nairobi, Kenya.</p>
                 </div>
             </div>
         </div>
@@ -70,8 +70,8 @@
                 <h3>Meet The Team</h3>
                 <hr>
                 <div class=" row col 12">
-                    <div class="col s12 l4">
-                        <figure class="snip1577"> <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample99.jpg" alt="sample99" />
+                    <div class="col s12 l4 figure">
+                        <figure class="snip1577"> <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample99.jpg" alt="sample99" width="" height="" />
                             <figcaption>
                                 <h3>Bodrum Salvador</h3>
                                 <h4>Luxery</h4> </figcaption>
@@ -173,37 +173,43 @@
         </div>
     </section>
     <footer class="page-footer">
-        <div class="container">
+        <div class="container row ">
             <div class="row">
-                <div class="col s3">
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Features</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Careers</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+                <div class="col s3 offset-s1 m2 l2 offset-m2 offset-l2">
+                    <ul class="col s12">
+                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Home</a></li>
+                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">About </a></li>
+                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Features</a></li>
+                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Careers</a></li>
+                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Contact </a></li>
                     </ul>
                 </div>
-                <div class="col s3">
+                <div class="col s12 l3 offset-l1 m3 offset-m1">
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Google+</a></li>
+                        <li class=""><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Info@netwookie.org</a></li>
+                        <li><a style=" font-size: 16px;" class="grey-text text-lighten-3" href="#!">+254700000000</a></li>
+                        <li><a style=" font-size: 16px;" class="grey-text text-lighten-3" href="#!">128-093-28494</a></li>
+                        <br>
+                        <div class="col s12 "> <img src="/img/Get_it_on_Google_play.svg.png" height="40" width="" alt="" style="margin-top:-11px; margin-left:10px;"> </div>
                     </ul>
                 </div>
-                <div class="col s3 ">
+                <div class="col s12 l4 m4 icons">
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Info@netwookie.org</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">+254700000000</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">128-093-28494</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook" aria-hidden="true"></i>
+</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter" aria-hidden="true"></i>
+</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                                      
+</a></li>
                     </ul>
                 </div>
-                <div class="col s3 "> <img src="/img/Get_it_on_Google_play.svg.png" height="50" width="" alt="" style="margin-top:20px;"> </div>
             </div>
         </div>
-        <div class="footer-copyright">
-            <div class="container"> © 2017 Copyright Netwookie <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a> </div>
+        <div class="footer-copyright row">
+            <div class="container class=center-align col s3"> © 2017 Copyright Netwookie |<a class="grey-text text-lighten-4 " href="#!">Terms & Conditions</a> </div>
         </div>
     </footer>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
