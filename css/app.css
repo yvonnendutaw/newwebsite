@@ -733,3 +733,14 @@ a.waves-effect.waves-light.btn.btnsubscribe {
 .row.intro1 {
     margin-top: -6px;
 }
+
+i.waves-effect.waves-orange.btn.contactbtn.waves-input-wrapper {
+    background-color: orange;
+    width: 50%;
+    margin: 0 25%;
+}
+
+materialize.css:4996 .btn:hover,
+.btn-large:hover {
+    background-color: orange;
+}
