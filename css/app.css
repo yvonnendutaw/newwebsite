@@ -734,7 +734,7 @@ a.waves-effect.waves-light.btn.btnsubscribe {
     margin-top: -6px;
 }
 
-i.waves-effect.waves-orange.btn.contactbtn.waves-input-wrapper {
+.waves-effect.waves-orange.btn.contactbtn.waves-input-wrapper {
     background-color: orange;
     width: 50%;
     margin: 0 25%;
