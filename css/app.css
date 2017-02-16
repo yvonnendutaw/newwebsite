@@ -847,3 +847,7 @@ a.brand-logo {
     margin-top: 5px;
     margin-left: 8px;
 }
+
+form.col.s12 {
+    padding: 63px;
+}
