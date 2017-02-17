@@ -654,7 +654,7 @@ section#team {
     z-index: 1;
     display: block;
     height: 101vh;
-    background-image: url(../img/contactimg.jpg);
+    background-image: url(../img/contactimag.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -675,16 +675,10 @@ video {
 }
 
 form {
-    background-color: rgba(16, 16, 16, 0.81);
+    background-color: rgba(47, 45, 45, 0.59);
     color: whitesmoke;
-}
-
-form.col.s12 {
-    padding: 74px;
-}
-
-form input.input-field {
-    width: 50%;
+    margin-top: 1%;
+    margin-right: 5%;
 }
 
 .input-field:focus {
@@ -719,10 +713,17 @@ form input.input-field {
     box-shadow: 0 1px 0 0 orange;
 }
 
+
+/*
 .inputs {
     border-left: 1px solid orange;
     border-right: 1px solid orange;
     padding: 30px;
+}*/
+
+.row.contactform {
+    margin-left: -4%;
+    padding: 5%;
 }
 
 
@@ -765,7 +766,7 @@ a.waves-effect.waves-light.btn.btnsubscribe {
 .waves-effect.waves-orange.btn.contactbtn.waves-input-wrapper {
     background-color: orange;
     width: 50%;
-    margin: 0 25%;
+    margin: 5% 25%;
 }
 
 materialize.css:4996 .btn:hover,
@@ -785,28 +786,25 @@ materialize.css:4996 .btn:hover,
 }
 
 .fa {
-    padding: px;
-    border-radius: 200px;
-    /*    border: solid white 1px;
-    */
-    background-color: rgba(255, 255, 255, 0.02);
-    font-size: 40px;
+    padding: ;
+    border-radius: 100px;
+    font-size: 30px;
 }
 
 .fa-facebook {
-    color: #808080;
+    color: orange;
 }
 
 .fa-twitter {
-    color: #808080;
+    color: orange;
 }
 
 .fa-youtube-play {
-    color: #808080;
+    color: orange;
 }
 
 .fa-google-plus {
-    color: #808080;
+    color: orange;
 }
 
 .fa-facebook:hover {
@@ -848,6 +846,14 @@ a.brand-logo {
     margin-left: 8px;
 }
 
-form.col.s12 {
-    padding: 63px;
+form.col.s12 {}
+
+.nav-fixed {
+    /*    position: fixed;
+    */
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 0px;
+    z-index: 997;
 }
