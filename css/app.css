@@ -106,11 +106,11 @@ nav {
 }
 
 .text h4 {
-    margin-top: 17vh;
+    margin-top: 10vh;
     font-weight: 600;
     font-size: 50px;
     color: #000;
-    margin-left: 100px;
+    margin-left: 40%;
 }
 
 
@@ -149,8 +149,6 @@ nav {
     background-color: #757575;
     color: whitesmoke;
 }
-
-.row.center-align.col.s8.analysistext {}
 
 
 /*team*/
@@ -654,7 +652,7 @@ section#team {
     z-index: 1;
     display: block;
     height: 101vh;
-    background-image: url(../img/contactimg.jpg);
+    background-image: url(../img/contactimag.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -722,7 +720,7 @@ form {
 }*/
 
 .row.contactform {
-    margin-left: -4%;
+    margin-right: 4%;
     padding: 5%;
 }
 
@@ -742,7 +740,7 @@ form {
 }
 
 a.waves-effect.waves-light.btn.btnsubscribe {
-    margin-left: -7%;
+    margin-left: -25%;
     margin-top: 8%;
     width: 100%;
 }
@@ -847,12 +845,3 @@ a.brand-logo {
 }
 
 form.col.s12 {}
-
-.nav-fixed {
-/*    position: fixed;
-    */    right: 0;
-    left: 0;
-    top: 0;
-    margin-bottom: 0px;
-    z-index: 997;
-}
