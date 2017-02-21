@@ -21,18 +21,25 @@ jQuery(document).ready(function ($) {
 });
 $(window).scroll(function () {
     if ($(window).scrollTop() >= 500) {
-        $('.navbar').css('background', 'white');
+        $('.navbar').css('background', 'rgba(2, 1, 1, 0.7)');
     }
     else {
         $('.navbar').css('background', 'transparent');
     }
 });
-//$(window).scroll(function () {
-//            if ($(document).scrollTop() == 0) {
-//                $('.title-area img').attr('src', 'img/newnetlogo.png');
-//            }
-//            else if {
-//                ($(document).scrollTop() >= 500) {
-//                    $('.title-area img').attr('src', 'img/Netwookie%20Logo%20Horizontal.png');
-//                }
-//            });
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() < 100) {
+            $('#logo-img img').css({
+                'width': '184px'
+                , 'height': '33px'
+            }).attr('src', 'img/newnetlogo.png');
+        }
+        if ($(this).scrollTop() > 100) {
+            $('#logo-img img').css({
+                'width': '184px'
+                , 'height': '60px'
+            }).attr('src', 'img/Netwookie%20Logo%20Horizontal.png');
+        }
+    });
+});
