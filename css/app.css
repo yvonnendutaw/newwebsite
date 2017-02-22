@@ -15,8 +15,8 @@ h6 {
 
 body p {
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Roboto',
+    sans-serif;}
 
 hr {
     box-sizing: content-box;
