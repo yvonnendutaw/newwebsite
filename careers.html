@@ -17,122 +17,149 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 </head>
 
-<body>
-    <div>
-        <ul id="mobile-demo" class="side-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="careers.html">Careers</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-        </ul>
-        <div class="navbar-fixed ">
-            <nav class="col s12 ">
-                <div class="nav-wrapper ">
-                    <a href="#" class="brand-logo" style="margin-top: 5px;"> <img class="netwookielogo" src="./img/netlogopng.png" height="40px" width="40px" alt=""> Netwookie</a> <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="features.html">Features</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                        <li><a href="contact.html">Contact us</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="headerindex3 row">
-            <div class="row aboutustext careerstext">
-                <div class="col s8 offset-s2 center-align" style="color:whitesmoke; padding:50px; margin-top: 60px;text-align=center; height: 300px; background-color:rgba(0, 0, 0, 0.0); ">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="headerindex3 row">
+        <div id="video_overlays">
+            <div class="navbar-fixed navbar ">
+                <nav class="col s12 navbar z-depth-0 ">
+                    <div class="nav-wrapper "> <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons"></i></a>
+                        <a href="index.html" id="logo-img" class="brand-logo left" style="margin-top: 5px;"> <img class=" title-area netwookielogo" src="./img/newnetlogo.png" height="60px" width="180px" alt=""> </a>
+                        <div class="row">
+                            <a href="index.html" class="brand-logo right" style="color:white;" style="margin-top: 5px;">
+                                <!--                                      <img class="netwookielogo" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="60px" width="140px" alt="">--></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <div class=" col s12 l12 m12  center-align" style="margin-top: 30vh;">
+                    <h4 style="color:white;"> Our team is made up of creative talented and amazing people.</h4>
+                    <hr>
+                    <h4 style="color:white;">We are looking for great talent</h4>
                     <br>
-                    <h3 style="font-weight:700;">Are you currently looking for work and <br>Want to Join our amazing team?</h3>
-                    <br>
-                    <button class="btn waves-effect positions" style="color:white; border:solid 1px white;">View Positions</button>
+                    <a href="#jobs">
+                        <button class="btn orange apply" style=" padding:4px; ">Join Us </button>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col s12 m6 l6 ">
-            <h4 style="text-align:center;">Job Title</h4>
+    <div id="jobs" class="row" style="padding:3%;">
+        <div class="col s12 m10 offset-m1 offset-l1 l10 ">
+            <h4 style="text-align:center; color:orange;">Company Description</h4>
             <hr style="align-content:left;">
-            <p style="border-right:solid 1px black; padding:15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa id voluptatum aperiam molestias unde error tempore, atque dolorum fugiat quis, reprehenderit, officiis beatae! Voluptatum, deleniti molestiae incidunt tenetur corporis!</p>
-        </div>
-        <div class="col s12 m6 l6">
-            <h4 style="text-align:center;">Job Title</h4>
-            <hr>
-            <p style="padding:5%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa id voluptatum aperiam molestias unde error tempore, atque dolorum fugiat quis, reprehenderit, officiis beatae! Voluptatum, deleniti molestiae incidunt tenetur corporis!</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col s12 m6 l6">
-            <h4 style="text-align:center;">Job Title</h4>
+            <p style="padding:10px;">We are a technology start-up company based in Nairobi, Kenya. We want to offer a mobile application platform that allows potential customers to connect with service providers from the informal sector for their specific job needs. The solution is tailored to the unique demands of this economy to enable fair and transparent pricing, reduce costs, and improve service delivery. In doing so, we seek to alleviate poverty, create equal opportunities, and empower youth.</p>
+            <h4 style="text-align:center; color:orange;">Software Developer Intern
+</h4>
             <hr style="align-content:left;">
-            <p style="border-right:solid 1px black; padding:15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa id voluptatum aperiam molestias unde error tempore, atque dolorum fugiat quis, reprehenderit, officiis beatae! Voluptatum, deleniti molestiae incidunt tenetur corporis!</p>
-        </div>
-        <div class="col s12 m6 l6">
-            <h4 style="text-align:center;">Job Title</h4>
-            <hr>
-            <p style="padding:5%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa id voluptatum aperiam molestias unde error tempore, atque dolorum fugiat quis, reprehenderit, officiis beatae! Voluptatum, deleniti molestiae incidunt tenetur corporis!</p>
+            <p style="padding:10px;">Netwookie is currently seeking a software developer intern to provide technical, analytical, and creative input to building Netwookie’s systems.  This individual will work closely with  software developer staff in formulating, coding, and interpreting real life use cases from data collection and data analytics.  In addition to programming skills, knowledge of mobile applications development is a plus; since this role involves supporting and influencing device level development and remote connectivity. </p>
+            <!-- Modal Trigger -->
+            <button id="trigger" data-target="modal1" class="btn modal-trigger" style="margin:20px 20%; width:60%;" class="btn btnlearn waves-effect orange positions" style="color:orange; border:solid 1px white;">Apply </button>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4 style="text-align:center; color:orange;">Welcome to the Code Challenge
+ </h4>
+                    <hr>
+                    <div class="row">
+                        <div class="row">
+                            <div class="col s8 offset-s2">
+                                <p>Submit your answer and code in a programming language of your preference This challenge is taken from real life problems we solve at Netwookie Limited.</p>
+                                <ol>
+                                    <li>What's the complexity of your algorithm with respect to the number of iterations? </li>
+                                    <li>How many drivers will be at each location at the end of 1000 iterations?</li>
+                                    <li>How many turns will an average customer have to wait after 200 iterations? </li>
+                                    <li>How many excess jobs should we expect after 300 iterations?</li>
+                                    <li>On average, how far is a driver from a customer? What if there were only 5 drivers?</li>
+                                    <li>If locations 1-5 had 1-100 jobs and locations 6-10 had 1-10 jobs , what would the answers to 2-5 above be?</li>
+                                    <li>Given the situation in question 6 and given only 5 drivers, does your algorithm still work? If not how do you fix it?</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="row">
+                                <form class="col s8 offset-s2" style="background-color:transparent;" action="https://formspree.io/recruitment.netwookie@gmail.com" method="POST">
+                                    <div class="row modal-form-row">
+                                        <div class="input-field col s12">
+                                            <input id="last_name" type="text" name="name" class="validate">
+                                            <label for="name">Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="email" name="email" type="email" class="validate">
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="language_used" name="language" type="text" class="validate">
+                                            <label for="language">Coding Language</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="link" name="code_link" type="text" class="validate">
+                                            <label for="link">Link to source code github/bitbucket</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <textarea name="Answer" id="textarea1" type="text" class="materialize-textarea"></textarea>
+                                            <label for="textarea">Answer</label>
+                                        </div>
+                                    </div>
+                                    <input class=" waves-effect orange btn " style="margin:20px 20%; width:60%;" type="submit" value="Submit Answer"> </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"> <a class=" modal-action modal-close waves-effect orange btn">Close</a> </div>
+            </div>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
         </div>
     </div>
     <footer class="page-footer">
-        <div class="container row ">
-            <div class="row">
-                <div class="col s3 offset-s1 m2 l2 offset-m2 offset-l2">
-                    <ul class="col s12">
-                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Home</a></li>
-                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">About </a></li>
-                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Features</a></li>
-                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Careers</a></li>
-                        <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Contact </a></li>
-                    </ul>
-                </div>
-                <div class="col s12 l3 offset-l1 m3 offset-m1">
-                    <ul>
-                        <li class=""><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Info@netwookie.org</a></li>
-                        <li><a style=" font-size: 16px;" class="grey-text text-lighten-3" href="#!">+254700000000</a></li>
-                        <li><a style=" font-size: 16px;" class="grey-text text-lighten-3" href="#!">128-093-28494</a></li>
-                        <br>
-                        <div class="col s12 "> <img src="/img/Get_it_on_Google_play.svg.png" height="40" width="" alt="" style="margin-top:-11px; margin-left:10px;"> </div>
-                    </ul>
-                </div>
-                <div class="col s12 l4 m4 icons">
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook" aria-hidden="true"></i>
+        <div class="row">
+            <!--
+                    <div class="col s3">
+                        
+                        <ul class="col s12">
+                            <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Home</a></li>
+                            <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">About </a></li>
+                            <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Features</a></li>
+                            <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Careers</a></li>
+                            <li><a style=" font-size: 19px;" class="grey-text text-lighten-3" href="#!">Contact </a></li>
+                        </ul>
+
+                    </div>
+-->
+            <div class="col s12  icons">
+                <ul>
+                    <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.facebook.com/netwookie/
+"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a target="_blank" class="grey-text text-lighten-3" href="https://twitter.com/netwookie_kenya"><i class="fa fa-twitter" aria-hidden="true"></i>
 </a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter" aria-hidden="true"></i>
+                    <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UCCScqov7hg3P2WkYf2XcVUA"><i class="fa fa-youtube-play" aria-hidden="true"></i>
 </a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.linkedin.com/company-beta/17930637/"><i class="fa fa-linkedin" aria-hidden="true"></i>
 </a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-google-plus" aria-hidden="true"></i>
-                                      
-</a></li>
-                    </ul>
+                </ul>
+            </div>
+            <div class="footer-copyright row">
+                <div class="container center-align col s12 l6 m6 ">©2017 Copyright Netwookie
+                    <a class="grey-text text-lighten-4 " href="#!"></a>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright row">
-            <div class="container class=center-align col s3"> © 2017 Copyright Netwookie |<a class="grey-text text-lighten-4 " href="#!">Terms & Conditions</a> </div>
-        </div>
     </footer>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    </script>
-    <script src="js/app.js">
-    </script>
-    <!--Materializecss Slider-->
-    <script>
-        $(document).ready(function () {
-            $('.slider').slider({
-                full_width: true
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".button-collapse").sideNav();
-        });
-    </script>
 </body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+</script>
+<!--Materializecss Slider-->
+<script src="js/app.js">
+</script>
 
 </html>
