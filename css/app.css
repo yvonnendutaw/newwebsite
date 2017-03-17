@@ -1024,3 +1024,9 @@ button.btn.orange.apply {
     height: 5%;
     color: white;
 }
+input.waves-button-input{
+    color:white;
+}
+button.btn.orange.apply{
+    font-weight:900;
+}
