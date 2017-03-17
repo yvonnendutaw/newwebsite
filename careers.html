@@ -17,14 +17,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="headerindex3 row">
         <div id="video_overlays">
             <div class="navbar-fixed navbar ">
                 <nav class="col s12 navbar z-depth-0 ">
                     <div class="nav-wrapper "> <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons"></i></a>
                         <a href="#" id="logo-img" class="brand-logo left" style="margin-top: 5px;"> <img class=" title-area netwookielogo" src="./img/newnetlogo.png" height="60px" width="180px" alt=""> </a>
-                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.netwookie.bodaboda.sample&hl=en" class="brand-logo right" style="color:white;" style="margin-top: 5px;"> <img class="netwookielogo" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="60px" width="140px" alt=""> </a>
+                        <div class="row">
+                            <a href="index.html" class="brand-logo right" style="color:white;" style="margin-top: 5px;">
+                                <h5 class="">Home</h5>
+                                <!--                                      <img class="netwookielogo" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="60px" width="140px" alt="">--></a>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -36,22 +40,26 @@
         </div>
     </div>
     <div class="row" style="padding:3%;">
-        <div class="col s12 m8 offset-m2 offset-l2 l8 ">
-            <h4 style="text-align:center; color:orange;">Software Engineer-Intern</h4>
+        <div class="col s12 m10 offset-m1 offset-l1 l10 ">
+            <h4 style="text-align:center; color:orange;">Company Description</h4>
             <hr style="align-content:left;">
-            <p style="padding:10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa id voluptatum aperiam molestias unde error tempore, atque dolorum fugiat quis, reprehenderit, officiis beatae! Voluptatum, deleniti molestiae incidunt tenetur corporis!</p>
+            <p style="padding:10px;">We are a technology start-up company based in Nairobi, Kenya. We want to offer a mobile application platform that allows potential customers to connect with service providers from the informal sector for their specific job needs. The solution is tailored to the unique demands of this economy to enable fair and transparent pricing, reduce costs, and improve service delivery. In doing so, we seek to alleviate poverty, create equal opportunities, and empower youth.</p>
+            <h4 style="text-align:center; color:orange;">Software Developer Intern
+</h4>
+            <hr style="align-content:left;">
+            <p style="padding:10px;">Netwookie is currently seeking a software developer intern to provide technical, analytical, and creative input to building Netwookie’s systems.  This individual will work closely with  software developer staff in formulating, coding, and interpreting real life use cases from data collection and data analytics.  In addition to programming skills, knowledge of mobile applications development is a plus; since this role involves supporting and influencing device level development and remote connectivity. </p>
             <!-- Modal Trigger -->
             <button id="trigger" data-target="modal1" class="btn modal-trigger" style="margin:20px 20%; width:60%;" class="btn btnlearn waves-effect orange positions" style="color:orange; border:solid 1px white;">Apply </button>
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
                 <div class="modal-content">
-                    <h4 style="text-align:center; color:orange;">Code Challenge </h4>
+                    <h4 style="text-align:center; color:orange;">Welcome to the Code Challenge
+ </h4>
                     <hr>
                     <div class="row">
                         <div class="row">
                             <div class="col s8 offset-s2">
-                                <p>This problem is taken from real programming challenges we solve at Netwookie Limited. There is no correct answer, and we are looking to see an example of your skills. You can use </p>
-                                <p>Given 50 randomly located drivers, map them to some random number of randomly located jobs such that total distance to jobs is minimised.</p>
+                                <p>Submit your answer and code in a programming language of your preference This challenge is taken from real life problems we solve at Netwookie Limited.</p>
                                 <ol>
                                     <li>What's the complexity of your algorithm with respect to the number of iterations? </li>
                                     <li>How many drivers will be at each location at the end of 1000 iterations?</li>
@@ -92,8 +100,8 @@
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
-                                            <textarea name="Answer" id="textarea1" class="materialize-textarea"></textarea>
-                                            <label for="textarea1">Answer</label>
+                                            <textarea name="Answer" id="textarea1" type="text" class="materialize-textarea"></textarea>
+                                            <label for="textarea">Answer</label>
                                         </div>
                                     </div>
                                     <input class=" waves-effect orange btn " style="margin:20px 20%; width:60%;" type="submit" value="Submit Answer"> </form>
@@ -141,11 +149,11 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-    </script>
-    <!--Materializecss Slider-->
 </body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+</script>
+<!--Materializecss Slider-->
 <script src="js/app.js">
 </script>
 
